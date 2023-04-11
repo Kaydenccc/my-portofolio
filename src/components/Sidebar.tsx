@@ -25,12 +25,11 @@ const Sidebar = () => {
       mark!.style.height = e.offsetHeight + 'px';
       mark!.style.width = e.offsetWidth + 'px';
     };
-    if (pathname.includes('/blog')) {
-      indicator(blog);
-      console.log('first');
-    }
     if (pathname.includes('/')) {
       indicator(home);
+    }
+    if (pathname.includes('/blog')) {
+      indicator(blog);
     }
     if (pathname.includes('/about')) {
       indicator(about);
