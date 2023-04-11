@@ -37,7 +37,7 @@ const Sidebar = () => {
     if (pathname.includes('/guestbook')) {
       indicator(guestbook);
     }
-  }, []);
+  }, [pathname]);
 
   // when click menu
   useEffect(() => {
