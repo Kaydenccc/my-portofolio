@@ -1,9 +1,10 @@
 import CardBio from '@/components/CardBio';
+import Header from '@/components/Header';
 
 export default function Home() {
   return (
     <main className="w-full space-y-4">
-      <h1 className="text-5xl font-bold ">Anhar Fadilah</h1>
+      <Header label="Anhar Fadilah" />
       <p>
         Saya Anhar, seorang Software <span className="font-bold">Developer di Google Indonesia</span> , dan saya senang dapat berbagi karya dan pengalaman saya dengan Anda di sini.
       </p>
